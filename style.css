@@ -8,6 +8,10 @@ section{
 .flexible{
     display: flex;
 }
+#bar {
+    border-left: 5px solid rgb(0, 162, 255);
+    padding: 10px;
+}
 .half-width{
     width: 50%;
     padding-left: 10%;
@@ -63,4 +67,49 @@ width:  150px;
 .experiance-area span{
     color: rgb(127, 17, 252);
     
+}
+.half-width h2{
+  font-size: 40px;
+    
+}
+.devolop {
+  background-image: url(images/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 300px;
+}
+.cv{
+    background-color: gray;
+    padding: 20px;
+}
+.cv h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+.my-story{
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.my-story a{
+    text-decoration: none;
+    background-image:linear-gradient(blue,skyblue);
+    padding: 10px 40px;
+    color: white;
+}
+footer{
+    background-color: black;
+    padding: 30px 10px;
+}
+footer h1{
+    color: white;
+    text-align: center;
+}
+footer p{
+    color: skyblue;
+    text-align: center;
+}
+footer span{
+    color: rgba(8, 174, 240, 0.767);
 }
